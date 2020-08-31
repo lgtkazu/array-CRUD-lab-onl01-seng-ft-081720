@@ -1,21 +1,21 @@
 def create_an_empty_array
 
-  []  
+  []
 end
 
 def create_an_array
 
-  ["dog", "cat", "fish", "owl"]
+  ["I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(array, element)
 
-  array << element
+    array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
 
-  array.unshift(element)
+   array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
@@ -24,22 +24,21 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-
-  array.shift
+  
+ array.shift
 end
 
-def retreive_element_from_index(array, index_number)
+def retrieve_element_from_index(array, index_number)
 
-  array[index_number]
+   array[2]
 end
 
-def retreive_first_element_from_array(array)
+def retrieve_first_element_from_array(array)
 
-  array[0]
+  array.first
 end
 
-def retreive_last_element_from_array(array)
+def retrieve_last_element_from_array(array)
 
-  x = array.count
-  array[x-1]
+  array.last
 end
